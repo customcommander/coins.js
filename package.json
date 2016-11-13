@@ -1,0 +1,42 @@
+{
+  "name": "@customcommander/coins",
+  "version": "1.0.0",
+  "description": "Utility Library For COinS (ContextObject in SPAN)",
+  "keywords": [
+    "coins",
+    "parsing",
+    "contextobject"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/lib/coins.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/customcommander/coins.js.git"
+  },
+  "author": "Julien Gonzalez <hello@spinjs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/customcommander/coins.js/issues"
+  },
+  "homepage": "https://github.com/customcommander/coins.js#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.9.0",
+    "istanbul": "^0.4.5",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.2.0",
+    "karma-mocha-reporter": "^2.2.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "mocha": "^3.1.2",
+    "phantomjs-prebuilt": "^2.1.13",
+    "sinon": "^1.17.6",
+    "webpack": "^1.13.3"
+  }
+}
